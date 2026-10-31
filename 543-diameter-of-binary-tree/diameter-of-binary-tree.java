@@ -14,6 +14,7 @@
  * }
  */
 class Solution {
+    // this is not the optimized code as we call every node every time.
     public int diameterOfBinaryTree(TreeNode root) {
         if(root==null){
             return 0;
